@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background: var(--darker);
+    color: var(--light);
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 50px 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  nav a {
+    cursor: pointer;
+  }
+
+  nav a:hover {
+    opacity: 1;
+    color: #94741d;
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 15px rgba(247, 206, 27, 0.452);
+    transition: all .2s ease-in-out;
+  }
+
+  .navActive {
+    color: #b89430;
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 15px rgba(255,255,255, .5);
+  }
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
