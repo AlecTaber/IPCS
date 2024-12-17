@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Training from "./pages/Training";
 import Resources from "./pages/Resources";
 import Contact from "./pages/Contact";
+import Calendar from "./pages/Calendar";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/training" element={<Training />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </main>
 
